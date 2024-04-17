@@ -1,0 +1,129 @@
+body {
+  /* font: Arial, sans-serif; */
+  margin: 0;
+  padding: 0;
+  /* background-color: #f7f8fa; */
+}
+#header {
+  background-color: #f7f8fa;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+#nav {
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+#main-container {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* text-align: center; */
+}
+
+#return-home{
+  /* background-color: ; */
+  background-color: #f7f8fa;
+}
+#return-home ul {
+  font-size: 12px;
+  color: #9999b2;
+  margin: 20px;
+  display: flex;
+  list-style-type: none;
+}
+
+#return-home li {
+  margin-right: 10px;
+}
+
+#return-home a {
+  text-decoration: none;
+
+  color: #9999b2;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  background-color: #f7f8fa;
+}
+
+
+.profile-header{
+  text-align: center;
+  background-color: white;
+  width: 50%;
+}
+
+.in-profile-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  background-color: white;
+}
+
+.profile-image {
+  width: 200px; /* Adjust the size as needed */
+  height: 200px; /* Adjust the size as needed */
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black; /* Add a black border */
+  padding: 10px;
+  /* margin: 20px; */
+  margin-top: 60px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+.profile-details {
+  max-width: 400px;
+}
+
+.profile-details h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.profile-details p {
+  margin-bottom: 10px;
+}
+
+.profile-details strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.logout{
+  
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  
+}
+
+@media (max-width: 1100px) {
+  .profile-image {
+    display: none; /* Hide the image when screen width is less than or equal to 600px */
+  }
+}

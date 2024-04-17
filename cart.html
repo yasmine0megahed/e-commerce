@@ -1,0 +1,133 @@
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="../img/logooo.png" />
+
+    <link rel="stylesheet" href="../css/profile.css" />
+    <link rel="stylesheet" href="../css/first-nav.css" />
+    <link rel="stylesheet" href="../css/second-nav.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+  <body>
+    <div class="popup">
+      <div class="box">
+        <h2>Your Order Has Been Received</h2>
+        <i class="ri-checkbox-circle-line confirm"></i>
+        <h3>Thank You For Your Purchase</h3>
+      </div>
+    </div>
+    <!-- ============= Navbar =============  -->
+    <div id="first-nav">
+        <div id="logo-container">
+          <img id="logo" src="../img/logo.png" alt="LOGO image" />
+          <img id="logo1" src="../img/logooo.png" alt="LOGO image" />
+        </div>
+        <div id="home"><a href="index.html">Home</a></div>
+        <div id="about"><a href="#">About Us</a></div>
+        <div id="contact"><a href="products.html">Products</a></div>
+        <div id="search-container">
+          <input id="search-text" type="text" placeholder="search item" />
+          <input id="search-logo1" type="image" src="../img/search.jpg" alt="search logo image" />
+        </div>
+        <div id="profile-container">
+          <input id="profile-logo" type="image" src="../img/profile.jpg" alt="profile logo image" />
+        </div>
+        <div id="cart-container">
+          <div id="cart-l">
+            <input id="cart-logo" type="image" src="../img/cart.jpg" alt="cart logo image" />
+          </div>
+          <div id="cart-n">
+            <div id="cart-number">0</div>
+          </div>
+        </div>
+      </div>
+      <!-- ============= Navbar =============  -->
+      <!-- ============= Shopping =============  -->
+    <div class="shopping">
+        <div class="container">
+            <div class="cart">
+                <ul class="head">
+                    <li>Product Details</li>
+                    <li>Price</li>
+                    <li>Quantity</li>
+                    <li>Total</li>
+                </ul>
+                <div class="message">
+                  <img src="../img/empty-cart.png" alt="" class="cartIcon">
+                  <h2>Your Cart Is Empty</h2>
+                  <a href="./products.html">Continue Shopping</a>
+                </div>
+            </div>
+                <div class="orderSummary">
+                    <h3>Order Summary</h3>
+                    <h4 class>
+                        total<span class="totalPrice">0</span>
+                    </h4>
+                    <a href="" class="checkout">Checkout Now</a>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">our services</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">affiliate program</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">returns</a></li>
+                <li><a href="#">order status</a></li>
+                <li><a href="#">payment options</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>online shop</h4>
+              <ul>
+                <li><a href="#">watch</a></li>
+                <li><a href="#">bag</a></li>
+                <li><a href="#">shoes</a></li>
+                <li><a href="#">dress</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script type="module" src="../js/cart.js"></script>
+    <script src="../js/home-href.js"></script>
+    <script src="../js/search.js"></script>
+  </body>
+
+</html>

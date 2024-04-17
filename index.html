@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shoppingo</title>
+  <link rel="icon" type="image/x-icon" href="../img/logooo.png" />
+  <link rel="stylesheet" href="../css/slider.css" />
+  <link rel="stylesheet" href="../css/first-nav.css" />
+  <link rel="stylesheet" href="../css/second-nav.css" />
+  <link rel="stylesheet" href="../css/product-cat.css" />
+  <link rel="stylesheet" href="../css/products.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- ----------------------------------------------------------------------------------------- -->
+  <!--first nav--><!-- logo - search - cart -->
+  <!-- log -->
+  <div id="first-nav">
+    <div id="logo-container">
+      <img id="logo" src="../img/logo.png" alt="LOGO image" />
+      <img id="logo1" src="../img/logooo.png" alt="LOGO image" />
+    </div>
+    <div id="home"><a href="#">Home</a></div>
+    <div id="about"><a href="#">About Us</a></div>
+    <div id="contact"><a href="products.html">Products</a></div>
+    <div id="search-container">
+      <input id="search-text" type="text" placeholder="search item" />
+      <input id="search-logo1" type="image" src="../img/search.jpg" alt="search logo image" />
+    </div>
+    <div id="profile-container">
+      <input id="profile-logo" type="image" src="../img/profile.jpg" alt="profile logo image" />
+    </div>
+    <div id="cart-container">
+      <div id="cart-l">
+        <input id="cart-logo" type="image" src="../img/cart.jpg" alt="cart logo image" />
+      </div>
+      <div id="cart-n">
+        <div id="cart-number">0</div>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
+   <!-- ----------------------------------------------------------------------------------------- -->
+  <!--third nav--><!--Category-->
+  <div id="third-nav">
+
+    <div id="all-cat-container-nav"></div>
+  </div>
+
+  <!-- ----------------------------------------------------------------------------------------- -->
+  <br><br>
+  <!-- image slider -->
+  <div id="img-container">
+    <div id="imgl">
+      <img id="img-l" src="../img/h1.jpg" alt="" />
+    </div>
+    <div id="slide-container">
+      <img id="image" src="../img/0.jpg" alt="" />
+      <input id="cover-button-l" type="button" value="<" onclick="prev()" />
+      <input id="cover-button-r" type="button" value=">" onclick="next()" />
+    </div>
+    <div id="imgr">
+      <img id="img-r" src="../img/h2.jpg" alt="" />
+    </div>
+  </div>
+  <br /><br />
+  <!-- ----------------------------------------------------------------------------------------- -->
+  <!--second nav--><!--our category nav-->
+  <!--title-->
+  <div class="second-nav">
+    <div class="our-cat-title">
+      <h2>Our Categories</h2>
+    </div>
+    <!--categories-->
+    <div id="our-cat-container">
+      <!--category 1-->
+      <div class="cat-item-container-1 cat-item-container">
+        <a href="products.html" class="cat-item-link cat-item-link-1">
+          <div class="cat-item-bg-1 cat-item-bg"></div>
+          <div class="cat-item-1 cat-item">All Products</div>
+        </a>
+      </div>
+      <!--category 2-->
+      <div class="cat-item-container-2 cat-item-container">
+        <a href="#" class="cat-item-link cat-item-link-2">
+          <div class="cat-item-bg-2 cat-item-bg"></div>
+          <div class="cat-item-2 cat-item">Men's Needs</div>
+        </a>
+      </div>
+      <!--category 3-->
+      <div class="cat-item-container-3 cat-item-container">
+        <a href="#" class="cat-item-link cat-item-link-3">
+          <div class="cat-item-bg-3 cat-item-bg"></div>
+          <div class="cat-item-3 cat-item">Women's Needs</div>
+        </a>
+      </div>
+      <!--category 4-->
+      <div class="cat-item-container-4 cat-item-container">
+        <a href="#" class="cat-item-link cat-item-link-4">
+          <div class="cat-item-bg-4 cat-item-bg"></div>
+          <div class="cat-item-4 cat-item">Home's Needs</div>
+        </a>
+      </div>
+      <!--category 5-->
+      <div class="cat-item-container-5 cat-item-container">
+        <a href="#" class="cat-item-link cat-item-link-5">
+          <div class="cat-item-bg-5 cat-item-bg"></div>
+          <div class="cat-item-5 cat-item">Laptops</div>
+        </a>
+      </div>
+      <!--category 6-->
+      <div class="cat-item-container-6 cat-item-container">
+        <a href="#" class="cat-item-link cat-item-link-6">
+          <div class="cat-item-bg-6 cat-item-bg"></div>
+          <div class="cat-item-6 cat-item">Smart Phones</div>
+        </a>
+      </div>
+      <!--category 7-->
+      <div class="cat-item-container-7 cat-item-container">
+        <a href="#" class="cat-item-link cat-item-link-7">
+          <div class="cat-item-bg-7 cat-item-bg"></div>
+          <div class="cat-item-7 cat-item">Motorcycle</div>
+        </a>
+      </div>
+      <!--category 8-->
+      <div class="cat-item-container-8 cat-item-container">
+        <a href="#" class="cat-item-link cat-item-link-8">
+          <div class="cat-item-bg-8 cat-item-bg"></div>
+          <div class="cat-item- cat-item">Automotive</div>
+        </a>
+      </div>
+      <br />
+    </div>
+  </div>
+ 
+  <!-- ----------------------------------------------------------------------------------------- -->
+  <!-- body products -->
+  <div class="all-cat-title">
+    <h2>Recommended</h2>
+  </div>
+  <hr>
+  <div class="prodContainer"></div>
+  <!-- ----------------------------------------------------------------------------------------- -->
+  <!-- footer products -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="../js/home-href.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/slider.js"></script>
+  <script src="../js/product-cat.js"></script>
+  <script type="module" src="../js/products-home.js"></script>
+  <script type="module" src="../js/nav.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+/* style of section login */
+
+.section__login {
+  position: relative;
+  margin-bottom: 50px;
+}
+.section__login .container{
+    width: 90%;
+    margin: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 60px auto;
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  background-color: white;
+}
+form span {
+  padding-bottom: 15px;
+}
+form input {
+  outline: none;
+  border: none;
+  width: 100%;
+  border: 1px solid #212121;
+  border-radius: 6px;
+  color: #212121;
+  font-size: 15px;
+  
+  margin-bottom: 30px;
+  padding-left: 10px;
+  min-height: 44px;
+  transition: border-color 0.2s ease;
+  background-color: #e8f0fe;
+}
+.button__register {
+  background: #212121;
+  border: 1px solid #212121;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  height: 48px;
+  line-height: 1;
+}
+/* style of section login-button */
+.button__login {
+  background: #212121;
+  border: 1px solid #212121;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  min-height: 44px;
+  line-height: 1;
+  transition: 0.5s;
+}
+.button__login:hover {
+  transition: 0.5s;
+  background-color: #0c0b0b;
+}
+/* media for screen tablet and less*/
+@media screen and (max-width:768px) {
+    form{
+        width: initial;
+    }
+}
+/* media for screen sm*/
+@media screen and (max-width:400px) {
+    form input{
+min-height: 30px;   
+ }
+ .button__login {
+    min-height: 40px !important;   
+
+ }
+}
+/* cheeeeeeeeeeeeeeek */
+.hideuser__error,.hidepassword__error{
+    display: none;
+}
+.showuser__error,.showpassword__error{
+  display: block;
+  color: red;
+  margin: -20px 0px 0px 12px;
+}
+
+.uservalid,.passvalid{
+border: 1px solid green !important;
+}
+.erroruser__input,.errorpass__input{
+    border: 1px solid red!important;
+    }
+
+    .logo {
+      width :50% ;
+      margin: auto;
+      padding: 3vh 0 3vh 0;
+    }

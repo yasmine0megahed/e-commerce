@@ -1,0 +1,82 @@
+/* slider  */
+#slide-container {
+  position: relative;
+  display: inline-block;
+  width: 45%;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+/* images in slider */
+#image {
+  width: 100%;
+  height: 20rem;
+  left: 25vw;
+  display: inline-block;
+  border-radius: 20px;
+}
+/* button to move slider on left and right side */
+#cover-button-l,
+#cover-button-r {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: rgba(243, 243, 249, 0.5);
+  border-color: rgba(243, 243, 249, 0.5);
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  font-weight: bolder;
+  font-size: large;
+}
+#cover-button-l {
+  left: 10px;
+}
+#cover-button-r {
+  right: 10px;
+}
+/* image (left and right) */
+#img-l,
+#img-r {
+  width: 100%;
+  height: 20rem;
+  border-radius: 50%;
+}
+#imgl,
+#imgr {
+  display: inline-block;
+  width: 25%;
+}
+/* media */
+@media (max-width: 1200px) {
+  #imgl,
+  #imgr {
+    display: none;
+  }
+  #slide-container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 720px) {
+ 
+  #slide-container {
+    display: none;
+  }
+  br{
+    display: none;
+  }
+#our-cat-container{
+  margin-top: 6px;
+}
+}
+
+
+@media (max-width: 340px) {
+  #slide-container {
+    display: none;
+  }
+  br {
+    display: none;
+  }
+}
